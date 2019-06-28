@@ -1,0 +1,4 @@
+dolar = float(input("Informe o valor do dolar que deseja converter: US$ "))
+cotacao = float(input("Informe o valor da cotacao do dolar: R$"))
+conversao = dolar*cotacao
+print ('O dolar convertido em real e: R$', ("%.3f" % conversao))
